@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📇 Contact Manager (Demo)
+
+A modern, minimal contact manager — think of it like a sleek digital address book.
+
+This project is a **UI-focused demo** built with **Next.js**, **shadcn/ui**, and **pnpm**, showcasing clean design patterns, component structure, and a smooth user experience.
+
+## ✨ Features
+
+* 📂 View and manage contacts
+* 🔍 Clean, intuitive UI for browsing data
+* 🎨 Partly styled with `shadcn/ui` components
+* ⚡ Fast and lightweight (powered by Next.js)
+* 🧩 Modular and reusable component structure
+
+> ⚠️ This is a demo project focused on frontend design, not a full production system.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/contact-manager-demo.git
+cd contact-manager-demo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Run the development server
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Visit: http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Framework:** Next.js
+* **UI Components:** shadcn/ui
+* **Package Manager:** pnpm
+* **Styling:** Tailwind CSS
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+/app            → App router pages
+/components     → Reusable UI components
+/lib            → Utilities/helpers
+/public         → Static assets
+/styles         → Global styles
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Purpose
+
+This project is intended to:
+
+* Demonstrate UI/UX design skills
+* Showcase component architecture using shadcn
+* Serve as a foundation for future full-stack features
+
+## Screenshot
+
+<img width="1903" height="767" alt="image" src="https://github.com/user-attachments/assets/34afd910-64ee-4c6d-9fac-e15731ad86df" />
+
+
+## License
+
+MIT License — feel free to use and modify.
+
+## ⚠️ Notes
+
+This project is intentionally simple, the focus is on **design clarity**, not feature complexity.
